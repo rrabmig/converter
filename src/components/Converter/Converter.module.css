@@ -1,0 +1,41 @@
+.main{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(236,240,241);
+}
+.windowContainer {
+    padding: 10px;
+    background-color: rgb(53,152,219);
+    border-radius: 15px;
+}
+.windowContainer:first-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.windowContainer:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.buttonContainer {
+    width: 90%;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+}

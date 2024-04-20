@@ -1,0 +1,42 @@
+.exchangeWindow {
+    width: fit-content;
+    height: fit-content;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(42,128,185);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.valueWindow {
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 0 0 5px 5px;
+    border: none;
+}
+
+.button {
+    height: 64px;
+    width: 64px;
+    
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+}
